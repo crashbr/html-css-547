@@ -1,0 +1,141 @@
+.navbar {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  padding: 0 5%;
+}
+
+.navbar > a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  border-bottom: 1px solid transparent;
+  padding: 0.3rem 0;
+}
+
+.navbar > a:hover {
+  border-bottom: 1px solid orange;
+  padding: 0.3rem 0;
+}
+
+.navbar .nav-list {
+  list-style: none;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  padding: 0 4.5%;
+  justify-content: flex-end;
+}
+
+.navbar .nav-list li {
+  margin: 1rem 0.6rem;
+}
+
+.navbar .nav-list li a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid transparent;
+  padding: 0.3rem 0;
+}
+
+.navbar .nav-list li a:hover{
+  border-bottom: 1px solid orange;
+  padding: 0.3rem 0;
+}
+
+#main-content {
+  width: 90%;
+  height: 600px;
+  background-color: #444444;
+  margin: 3rem auto;
+  display: flex;
+  border-radius: 15px;
+}
+
+.first-section {
+  width: 70%;
+}
+
+.first-section h1 {
+  margin: 1rem;
+  font-size: 50px;
+}
+
+.first-section .texto {
+  margin: 1rem;
+}
+
+.first-section p {
+  font-size: 1.2rem;
+  margin: 5px;
+  text-align: justify;
+}
+
+.first-section .caixas {
+  height: 600px;
+  display: flex;
+  flex-direction: row; /* o row é o padrão do flex-direction (podemos omitir essa linha); */
+  justify-content: space-between; /* O padrão desse parametro é o flex-start | Alinhamento horizontal*/
+  align-items: flex-start; /* Alinhamento vertical */
+  flex-wrap: wrap;
+}
+
+.caixa {
+  min-width: 150px;
+  height: 150px;
+  color: white;
+  font-weight: 700;
+  margin: 15px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.caixa:hover{
+  box-shadow: 0 0 35px rgba(0, 0, 0, 100%);
+  transition: 2s;
+}
+
+.caixa1 {
+  background-color: red;
+}
+
+
+.caixa2 {
+  background-color: blue;
+}
+
+.caixa3 {
+  background-color: orange;
+}
+.caixa4 {
+  background-color: green;
+}
+
+#side-bar{
+  width: 30%;
+}
+
+#side-bar h2{
+  margin: 1.2rem;
+  font-size: 30px;
+  text-align: left;
+}
+
+#side-bar p{
+  text-align: justify;
+  margin: 1.2rem;
+}
+
+#side-bar img {
+  margin-left: 130px;
+  width: 40%;
+}

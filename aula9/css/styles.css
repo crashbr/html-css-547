@@ -1,0 +1,190 @@
+#header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+
+#header .navbar .nav-brand {
+  margin-left: 7rem;
+}
+
+#header .navbar .logo {
+  width: 140px;
+}
+
+#header .navbar .nav-list {
+  list-style: none;
+  display: flex;
+  margin-right: 130px;
+}
+
+#header .navbar .nav-list li {
+  font-weight: 400;
+  margin-left: 2rem;
+  /* padding: 1rem; */
+}
+
+#header .navbar .nav-toggle {
+  display: none;
+}
+
+#header .navbar .nav-list li .active {
+  color: black;
+  font-weight: 7d00;
+}
+
+#header .navbar .nav-list li a {
+  text-decoration: none;
+  color: #777777;
+}
+
+
+#header .banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 8rem;
+  width: 100%;
+}
+
+#header .banner .content{
+  width: 30%;
+}
+
+#header .banner .content h4{
+  margin-top: 1rem;
+  font-weight: 400;
+  color: #777777;
+}
+
+#header .banner .content button{
+  border: none;
+  width: 200px;
+  height: 40px;
+  background-color: #458FF6;
+  color: white;
+  border-radius: 55px;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+#header .banner .header-image {
+  width: 50%;
+}
+
+#header .banner .header-image img {
+  width: 100%;
+}
+
+#main-section .text-services {
+  width: 50%;
+  margin: 130px auto;
+}
+#main-section .text-services h1 {
+  text-align: center;
+}
+
+#main-section .text-services p{
+  margin-top: 50px;
+  text-align: center;
+}
+
+#main-section .services .block-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-section .services .block-content .box {
+  /* border: 1px solid black; */
+  width: 250px;
+  height: 250px;
+  margin: 1rem;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  padding: 2rem;
+}
+
+#main-section .services .block-content .box-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-section .services .block-content .box img {
+  width: 70%;
+  height: 70%;
+}
+#main-section .services .block-content .imagem {
+  display: flex;
+  height: 50%;
+  text-align: left;
+  margin-left: -100px;
+}
+
+#main-section .services .block-content .box-content-bottom {
+  height: 50%;
+}
+
+#main-section .services .block-content .box h3{
+  margin-top: 1rem;
+}
+
+#main-section .services .block-content .box p{
+  margin-top: 0.5rem;
+  font-size: 12px;
+}
+
+#main-section .services .button {
+  text-align: center;
+}
+
+#main-section .services .button button{
+  border: 1px solid blue;
+  width: 200px;
+  height: 40px;
+  background-color: #ffffff;
+  color: blue;
+  border-radius: 55px;
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px){
+ 
+  #header .navbar {
+    padding: 2rem 2rem;
+  }
+
+  #header .navbar .nav-list{
+    display: none;
+  }
+
+  #header .navbar .nav-toggle {
+    display: block;
+    font-size: 1.4rem;
+  }
+
+  #header .banner {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+  }
+
+  #header .banner .content{
+    margin-top: 1rem;
+    width: 100%;
+  }
+  #header .banner .content button {
+    width: 100%;
+  }
+  #header .banner .header-image {
+    width: 100%;
+  }
+ 
+}
