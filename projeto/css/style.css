@@ -1,0 +1,157 @@
+#header .navbar .menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+#header .navbar .menu li {
+  list-style: none;
+  padding: 1rem; 
+}
+
+#header .navbar .menu li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+#main-content, #header, #footer{
+  margin: 0 auto;
+  max-width: 1100px;
+  max-height: 2041px;
+}
+
+#main-content .main-section {
+  margin: 7rem auto;
+  width: 80%;
+}
+
+#main-content .main-section .content-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-content .main-section .content-about .text-about{
+  width: 60%;
+}
+#main-content .main-section .content-about .text-about h1{
+  font-size: 44px;
+  font-weight: 700;
+}
+
+#main-content .main-section .content-about .photo-about{
+  width: 40%;
+  text-align: center;
+}
+
+#main-content .main-section .content-button .resume {
+  background-color: #00A8CC;  
+  width: 208px;
+  height: 47px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+}
+
+#main-content .posts-section {
+  background-color: #EDF7FA;
+  height: 396px;
+  padding: 5px;
+}
+
+#main-content .posts-section .posts-content{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#main-content .posts-section .menu-posts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#main-content .posts-section .boxes{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+#main-content .posts-section .boxes .box {
+  width: 415px;
+  height: 295px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+#main-content .posts-section .box .box-title{
+  font-size: 20px;
+}
+
+#main-content .posts-section .box .box-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-content .posts-section .box .box-content {
+  margin-top: 20px;
+}
+
+#main-content .works-content {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#main-content .works-section .works-box {
+  display: flex;
+  width: 80%;
+}
+
+#main-content .works-section .works-box .works-box-content{
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+#main-content .works-section .works-box .works-box-content .works-box-title h1{
+  font-size: 30px;
+}
+
+#main-content .works-section .works-box .works-box-content .works-box-year-subject{
+  margin-top: 10px;
+}
+
+#main-content .works-section .works-box .works-box-content .works-box-year-subject .year{
+  background-color: #142850;
+  color: white;
+  border-radius: 50%;
+  width: 30%;
+}
+
+#main-content .works-section .works-box .works-box-content .works-box-content-text{
+  margin-top: 10px;
+}
+
+#footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer .social{
+  margin-top: 50px;
+  display: flex;
+}
+
+#footer .social img{
+  margin: 20px;
+}
+
+hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
