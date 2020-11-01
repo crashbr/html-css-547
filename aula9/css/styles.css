@@ -164,9 +164,11 @@
     display: none;
   }
 
-  #header .navbar .nav-toggle {
+  #header > nav > i
+  /* #header .navbar .nav-toggle */ {
     display: block;
-    font-size: 1.4rem;
+    font-size: 10rem;
+    text-align: center;
   }
 
   #header .banner {
